@@ -1,0 +1,81 @@
+body {
+  margin: 0px;
+  background: url("https://d.newsweek.com/en/full/607719/djt.jpg");
+  background-size: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Alata;
+}
+a, u {
+  text-decoration: none;
+}
+#box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+h1 {
+  text-align: center;
+  background: #000b52;
+  padding: 10px 30px 10px 30px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  color: #d2e9fc;
+  filter: drop-shadow(0 0 0.75rem black);
+}
+#container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+#button {
+  background: white;
+  font-weight: 1000;
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+  line-height: 25px;
+  height: 27px;
+  width: 27px;
+  border-radius: 50%;
+  padding: 1px 1px 1px 1.5px;
+}
+#input {
+  border-radius: 30px;
+  line-height: 25px;
+  width: 300px;
+}
+#button:hover {
+  color: white;
+  background: #53c2c9;
+}
+.butt {
+  background: white;
+  list-style-type: none;
+  text-align: center;
+  line-height: 50px;
+  width: 300px;
+  margin: 5px;
+  transition: 0.5s;
+  filter: drop-shadow(0 0 0.75rem black);
+}
+
+.butt:hover {
+  background: #53c2c9;
+  color: white;
+  letter-spacing: 3px;
+  border-radius: 10px;
+}
+#todolist {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#container input[type="text"] {
+  background: white;
+  border: none;
+  font-family: Alata;
+  color: black;
+}
